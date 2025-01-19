@@ -1,0 +1,375 @@
+
+.part1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('https://www.renewwisconsin.org/wp-content/uploads/2023/06/AdobeStock_275195455-scaled-e1688051445910-1080x675.jpeg') center/cover no-repeat;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    position: relative;
+    top: -100px;
+
+}
+
+
+.part1-content {
+    max-width: 600px;
+    padding: 20px;
+    z-index: 2;
+}
+
+
+.part1-content h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+.part1-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+.part1-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.part1-btn {
+    padding: 10px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.part1-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.part1-btn.contact {
+    border-color: #252421;
+}
+
+.part1-btn.contact:hover {
+    background-color: #252421;
+    color: rgb(253, 253, 253);
+}
+
+
+.part1-btn.learn {
+    border-color: #252421;
+}
+
+.part1-btn.learn:hover {
+    background-color: #252421;
+    color: rgb(255, 255, 255);
+}
+
+
+@media (max-width: 768px) {
+    .part1-content h1 {
+        font-size: 2rem;
+    }
+
+    .part1-content p {
+        font-size: 1rem;
+    }
+
+    .part1-btn {
+        padding: 8px 20px;
+        font-size: 0.9rem;
+    }
+}
+
+
+/* part2 */
+.part2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+}
+
+
+.part2-content {
+    flex: 1;
+    min-width: 300px;
+}
+
+.part2-content h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.part2-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.explore-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: 1px solid #000;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.explore-btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+
+.part2-image {
+    flex: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+}
+
+.part2-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+
+
+.part2-stats {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    background-color: #4682b4;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.part2-stats h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.part2-stats p {
+    font-size: 0.9rem;
+    margin: 5px 0 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .part2 {
+        flex-direction: column;
+        
+    }
+
+    .part2-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .part2-content p {
+        font-size: 0.9rem;
+    }
+
+    .part2-stats h2 {
+        font-size: 1.2rem;
+    }
+}
+
+/* part3 */
+.solar-systems-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.system-card2 {
+    flex: 1;
+    text-align: center;
+    background-color: #d8f1f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.system-card2 h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.system-card2 p {
+    font-size: 1rem;
+    color: #555;
+    margin: 10px 0;
+}
+
+.system-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+
+
+.testimonials-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-image: url('https://images.unsplash.com/flagged/photo-1566838803980-56bfa5300e8c?ixid=M3wzOTE5Mjl8MHwxfHNlYXJjaHwyOHx8c29sYXIlMjBpbnZlcnRlcnN8ZW58MHx8fHwxNzI4ODAzMzA5fDA&ixlib=rb-4.0.3&auto=format&fit=crop&w=1920');
+    /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+}
+
+.testimonial {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.stars {
+    font-size: 1.5rem;
+    color: #ffcc00;
+    margin-bottom: 10px;
+}
+
+.testimonial-text {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.customer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.customer-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+/* Base styles for the footer */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  flex-wrap: wrap;  /* Ensures that content wraps on smaller screens */
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.footer-section h3, .footer-section h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.social-icons i {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.email-input {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.submit-button {
+  padding: 10px;
+  width: 100%;
+  background-color: #ff9900;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+/* Responsive for screens 768px or less (tablets and mobile) */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-section {
+    min-width: 100%;
+    text-align: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  .email-input, .submit-button {
+    width: 80%; /* Limiting input width for better visual appeal */
+    margin: 10px 0;
+  }
+}
+
+/* Responsive for smaller screens (mobile) */
+@media (max-width: 480px) {
+  .footer-container {
+    padding: 15px;
+  }
+
+  .footer-section h3, .footer-section h4 {
+    font-size: 1rem;
+  }
+
+  .social-icons i {
+    font-size: 1.2rem;
+  }
+}

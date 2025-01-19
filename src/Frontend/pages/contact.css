@@ -1,0 +1,211 @@
+
+.part1-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('https://www.renewwisconsin.org/wp-content/uploads/2023/06/AdobeStock_275195455-scaled-e1688051445910-1080x675.jpeg') center/cover no-repeat;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.contact-form p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.form-group textarea {
+    min-height: 100px;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 0.75rem;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+}
+
+.submit-button:hover {
+    background: #0056b3;
+}
+
+.location-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 2rem;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.location-info {
+    flex: 1;
+    min-width: 300px;
+}
+
+.location-info h2 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.location-info h4 {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.location-info ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.location-info ul li {
+    margin: 0.5rem 0;
+    color: #666;
+}
+
+.map-container {
+    flex: 1;
+    min-width: 300px;
+}
+
+iframe {
+    border-radius: 8px;
+    border: none;
+}
+
+/* Base styles for the footer */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    flex-wrap: wrap;  /* Ensures that content wraps on smaller screens */
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+  }
+  
+  .footer-section h3, .footer-section h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section p {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .social-icons i {
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .email-input {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  
+  .submit-button {
+    padding: 10px;
+    width: 100%;
+    background-color: #ff9900;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Responsive for screens 768px or less (tablets and mobile) */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-section {
+      min-width: 100%;
+      text-align: center;
+    }
+  
+    .social-icons {
+      justify-content: center;
+    }
+  
+    .email-input, .submit-button {
+      width: 80%; /* Limiting input width for better visual appeal */
+      margin: 10px 0;
+    }
+  }
+  
+  /* Responsive for smaller screens (mobile) */
+  @media (max-width: 480px) {
+    .footer-container {
+      padding: 15px;
+    }
+  
+    .footer-section h3, .footer-section h4 {
+      font-size: 1rem;
+    }
+  
+    .social-icons i {
+      font-size: 1.2rem;
+    }
+  }
+  
