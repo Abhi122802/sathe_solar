@@ -10,8 +10,8 @@
     color: white;
     font-family: 'Arial', sans-serif;
     position: relative;
-    top: -100px;
-
+    border-radius: 25px;
+    margin: 10px;
 }
 
 
@@ -63,21 +63,21 @@
 
 
 .part1-btn.contact {
-    border-color: #252421;
+    border-color: #978758;
 }
 
 .part1-btn.contact:hover {
-    background-color: #252421;
+    background-color: #000000;
     color: rgb(253, 253, 253);
 }
 
 
 .part1-btn.learn {
-    border-color: #252421;
+    border-color: #978758;
 }
 
 .part1-btn.learn:hover {
-    background-color: #252421;
+    background-color: #000000;
     color: rgb(255, 255, 255);
 }
 
@@ -106,6 +106,13 @@
     justify-content: space-between;
     padding: 20px;
     gap: 20px;
+    background-color: #d1f9ff;
+    border-radius: 25px;
+    margin: 10px;
+}
+.part2 .solar-image{
+    border-radius: 25px;
+
 }
 
 
@@ -149,13 +156,11 @@
     justify-content: center;
     align-items: center;
     min-width: 300px;
+    border-radius: 25PX;
+
 }
 
-.part2-image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 30px;
-}
+
 
 
 .part2-stats {
@@ -242,11 +247,12 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
-    background-image: url('https://images.unsplash.com/flagged/photo-1566838803980-56bfa5300e8c?ixid=M3wzOTE5Mjl8MHwxfHNlYXJjaHwyOHx8c29sYXIlMjBpbnZlcnRlcnN8ZW58MHx8fHwxNzI4ODAzMzA5fDA&ixlib=rb-4.0.3&auto=format&fit=crop&w=1920');
+
+    background-image: url('https://assets.weforum.org/article/image/1aCRGWEt0ZXdYtaeJ-ZNrBwaVDrItok4bAFd6r7AMZQ.JPG');
     /* Replace with your background image path */
     background-size: cover;
     background-position: center;
-    padding: 40px;
+    padding: 80px;
 }
 
 .testimonial {
@@ -283,93 +289,3 @@
     margin-bottom: 5px;
 }
 
-/* Base styles for the footer */
-.footer-container {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-  background-color: #333;
-  color: white;
-  flex-wrap: wrap;  /* Ensures that content wraps on smaller screens */
-}
-
-.footer-section {
-  flex: 1;
-  min-width: 200px;
-  margin: 10px;
-}
-
-.footer-section h3, .footer-section h4 {
-  font-size: 1.2rem;
-  margin-bottom: 10px;
-}
-
-.footer-section p {
-  font-size: 1rem;
-  margin: 5px 0;
-}
-
-.social-icons {
-  display: flex;
-  gap: 10px;
-  margin-top: 10px;
-}
-
-.social-icons i {
-  font-size: 1.5rem;
-  cursor: pointer;
-}
-
-.email-input {
-  padding: 10px;
-  width: 100%;
-  margin-bottom: 10px;
-  font-size: 1rem;
-}
-
-.submit-button {
-  padding: 10px;
-  width: 100%;
-  background-color: #ff9900;
-  color: white;
-  font-size: 1rem;
-  border: none;
-  cursor: pointer;
-}
-
-/* Responsive for screens 768px or less (tablets and mobile) */
-@media (max-width: 768px) {
-  .footer-container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .footer-section {
-    min-width: 100%;
-    text-align: center;
-  }
-
-  .social-icons {
-    justify-content: center;
-  }
-
-  .email-input, .submit-button {
-    width: 80%; /* Limiting input width for better visual appeal */
-    margin: 10px 0;
-  }
-}
-
-/* Responsive for smaller screens (mobile) */
-@media (max-width: 480px) {
-  .footer-container {
-    padding: 15px;
-  }
-
-  .footer-section h3, .footer-section h4 {
-    font-size: 1rem;
-  }
-
-  .social-icons i {
-    font-size: 1.2rem;
-  }
-}

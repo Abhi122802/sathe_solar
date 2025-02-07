@@ -103,7 +103,7 @@ const About = () => {
                         <div className="feedback-card" key={feedback.id}>
                             <div className="stars">
                                 {"★".repeat(feedback.stars)}{" "}
-                                {"☆".repeat(5 - feedback.stars)} {/* Display 5 stars */}
+                                {"☆".repeat(5 - feedback.stars)} 
                             </div>
                             <p className="feedback-message">{feedback.message}</p>
                             <br/>
@@ -125,38 +125,6 @@ const About = () => {
 
 
 
-            <footer className="footer-container">
-                <div className="footer-section">
-                    <h3>Innovative</h3>
-                    <p>Tailored solar solutions for energy efficiency.</p>
-                    <div className="social-icons">
-                        <i className="fab fa-facebook"></i>
-                        <i className="fab fa-instagram"></i>
-                        <i className="fab fa-x-twitter"></i>
-                        <i className="fab fa-linkedin"></i>
-                    </div>
-                    <p>© 2024. All rights reserved.</p>
-                </div>
-                <div className="footer-section">
-                    <h4>Contact</h4>
-                    <p>0217-2991202</p>
-                    <p>+91-9822351390</p>
-                    <p>sunbird.solar@gmail.com</p>
-                </div>
-                <div className="footer-section">
-                    <h4>Contact Inquiry</h4>
-                    <form>
-                        <input
-                            type="email"
-                            placeholder="Your email for inquiries"
-                            className="email-input"
-                        />
-                        <button type="submit" className="submit-button">
-                            Submit your inquiry now
-                        </button>
-                    </form>
-                </div>
-            </footer>
 
 
         </div>
