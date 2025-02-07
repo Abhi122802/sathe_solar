@@ -23,28 +23,28 @@ const Footer = () => {
                     <div>
                         <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
                             <i className="fab fa-facebook"
-                                style={{ fontSize: "24px", margin: "30px", cursor: "pointer", color: "#fdd835", transition: "color 0.3s ease-in-out" }}
+                                style={{ fontSize: "24px", margin: "20px", cursor: "pointer", color: "#fdd835", transition: "color 0.3s ease-in-out" }}
                                 onMouseOver={(e) => e.target.style.color = "#1877F2"}
                                 onMouseOut={(e) => e.target.style.color = "#fdd835"}>
                             </i>
                         </a>
                         <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
                             <i className="fab fa-instagram"
-                                style={{ fontSize: "24px", margin: "10 20px", cursor: "pointer", color: "#fdd835", transition: "color 0.3s ease-in-out" }}
+                                style={{ fontSize: "24px", margin: "20px", cursor: "pointer", color: "#fdd835", transition: "color 0.3s ease-in-out" }}
                                 onMouseOver={(e) => e.target.style.color = "#E4405F"}
                                 onMouseOut={(e) => e.target.style.color = "#fdd835"}>
                             </i>
                         </a>
                         <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
                             <i className="fab fa-twitter"
-                                style={{ fontSize: "24px", margin: "10 20px", cursor: "pointer", color: "#fdd835", transition: "color 0.3s ease-in-out" }}
+                                style={{ fontSize: "24px", margin: "20px", cursor: "pointer", color: "#fdd835", transition: "color 0.3s ease-in-out" }}
                                 onMouseOver={(e) => e.target.style.color = "#1DA1F2"}
                                 onMouseOut={(e) => e.target.style.color = "#fdd835"}>
                             </i>
                         </a>
                         <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
                             <i className="fab fa-linkedin"
-                                style={{ fontSize: "24px", margin: "10 20px", cursor: "pointer", color: "#fdd835", transition: "color 0.3s ease-in-out" }}
+                                style={{ fontSize: "24px", margin: "20px", cursor: "pointer", color: "#fdd835", transition: "color 0.3s ease-in-out" }}
                                 onMouseOver={(e) => e.target.style.color = "#0077B5"}
                                 onMouseOut={(e) => e.target.style.color = "#fdd835"}>
                             </i>
