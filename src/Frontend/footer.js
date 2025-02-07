@@ -54,18 +54,18 @@ const Footer = () => {
 
 
                 </div>
-                <p style={{ fontSize: "1rem", marginTop: "10px", opacity: "0.8" }}>© 2024. All rights reserved.</p>
+                <p style={{ fontSize: "1rem", marginTop: "20px", opacity: "0.8" }}>© 2024. All rights reserved.</p>
             </div>
 
-            <div style={{ flex: 1, maxWidth: "300px", margin: "10px" }}>
-                <h4 style={{ fontSize: "1.2rem", marginBottom: "10px", color: "#fdd835" }}>Contact</h4>
-                <p style={{ fontSize: "1rem", marginBottom: "10px", opacity: "0.8" }}>0217-2991202</p>
-                <p style={{ fontSize: "1rem", marginBottom: "10px", opacity: "0.8" }}>+91-9822351390</p>
-                <p style={{ fontSize: "1rem", marginBottom: "10px", opacity: "0.8" }}>sunbird.solar@gmail.com</p>
+            <div style={{ flex: 1, maxWidth: "300px", margin: "20px" }}>
+                <h4 style={{ fontSize: "1.2rem", marginBottom: "20px", color: "#fdd835" }}>Contact</h4>
+                <p style={{ fontSize: "1rem", marginBottom: "20px", opacity: "0.8" }}>0217-2991202</p>
+                <p style={{ fontSize: "1rem", marginBottom: "20px", opacity: "0.8" }}>+91-9822351390</p>
+                <p style={{ fontSize: "1rem", marginBottom: "20px", opacity: "0.8" }}>sunbird.solar@gmail.com</p>
             </div>
 
-            <div style={{ flex: 1, maxWidth: "300px", margin: "10px" }}>
-                <h4 style={{ fontSize: "1.2rem", marginBottom: "10px", color: "#fdd835" }}>Contact Inquiry</h4>
+            <div style={{ flex: 1, maxWidth: "300px", margin: "20px" }}>
+                <h4 style={{ fontSize: "1.2rem", marginBottom: "20px", color: "#fdd835" }}>Contact Inquiry</h4>
                 <form>
                     <input
                         type="email"
