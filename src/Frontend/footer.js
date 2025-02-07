@@ -23,7 +23,7 @@ const Footer = () => {
                     <div>
                         <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
                             <i className="fab fa-facebook"
-                                style={{ fontSize: "24px", margin: "10 20px", padding:"20px", cursor: "pointer", color: "#fdd835", transition: "color 0.3s ease-in-out" }}
+                                style={{ fontSize: "24px", margin: "30px", cursor: "pointer", color: "#fdd835", transition: "color 0.3s ease-in-out" }}
                                 onMouseOver={(e) => e.target.style.color = "#1877F2"}
                                 onMouseOut={(e) => e.target.style.color = "#fdd835"}>
                             </i>
